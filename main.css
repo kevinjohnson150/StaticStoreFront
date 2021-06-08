@@ -1,0 +1,228 @@
+
+.contentWrapper {
+    margin: 0  auto;
+    max-width: 1170px;
+    padding: 0 ;
+    
+}
+
+main {
+    margin-left: 5rem;
+    padding: 1rem;
+} 
+
+.navbar {
+    width: 4rem;
+    height: 150vh;
+    background: #d3d3d3;
+}
+
+.navbar:hover {
+    width: 6rem;
+}
+
+.navbar:hover .link-text {
+    display: block;
+}
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-item:last-child{
+    margin-top: auto;
+}
+
+.navs {
+   display: flex;
+   align-items: center;
+   height: 5rem;
+   text-decoration: none;
+}
+
+.link-text {
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 1rem;
+    display: none;
+}
+
+a.mainNav{
+    text-decoration: none;
+}
+
+li.mainNav {
+    list-style: none;
+    display: inline-block;
+}
+
+body {
+    font-size: 88.5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #39150C url(assets/Main_Background.jpg) no-repeat fixed top center;
+    padding: 0;
+    margin: 0;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+body::-webkit-scrollbar {
+    width: 0.25em;
+}
+
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #6649b8;
+}
+
+header {
+    padding: 2.5em 0 0.5em;
+    margin: 0 0 2.0em;
+    height: 10em;
+    background: #f8f8ff url(assets/Header_Background.jpg) center 0px;
+    border: solid 1px #000;
+}
+
+header h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5.5em;
+    color: #000;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+
+
+h3 {
+    font-size: 1.5em;
+    padding: 0px;
+    margin: 0 0.2em 0 0.3em;
+}
+
+p {
+    font-size: 1em;
+    padding: 0px;
+    margin: 0.7 0.2em 0 0.7em;
+}
+
+a.mainNav, a:visited {
+    color: #6649b8;
+}
+
+a:hover {
+    color: #00ffff;
+}
+
+nav#storeMenu li {
+    vertical-align: middle;
+    padding: 0 0.25em 0 0.2em;
+    
+}
+
+nav#storeMenu {
+    float: right;
+    margin: -11.5em 0 0 0;
+    padding: 0.35em;
+    background-color: #bfc5c5;
+    height: 2.2em;
+    letter-spacing: 2px;
+    font-family: 'Bebas Neue', cursive;
+}
+nav#storeMenu li {
+    padding: 0 0.25em 0 0.2em;
+    vertical-align: middle;
+}
+
+nav#storeMenu li a.mainNav {
+    text-decoration: none;
+}
+
+
+#mainStore h2 {
+    text-align: right;
+}
+
+section div.panel {
+    position: relative;
+    width: 220px;  
+    margin: 0 0.5em 2.0em 0.5em;
+    padding: 1.0em;
+    background-color: #6649b8;
+    border: #ccc solid 1px;
+    border-radius: 0.6em;
+    float: right;
+}
+
+section div.panel img.mainProducts {
+    width: 100%;
+}
+
+button {
+    color: #00ffff;
+    display: inline-block;
+    background-color: #696969;
+    margin: 0 0.95em 0.8em 0;
+    padding: 0.5em 0.7em;
+    border: 1px solid #00ffff;
+}
+
+button:hover {
+    color: #e0ffff;
+    border: 1px solid #e0ffff;
+}
+
+footer {
+    background-color: #6649b8;
+    height: 25px;
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+    padding: 1.5em 2.0em;
+}
+
+footer ul#footer {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 0.7em 0 0;
+    margin: 0;
+    font-family: 'Beba Neue', cursive;
+}
+
+footer ul li::before {
+    content: "| ";
+    padding-right: 0.7em;
+}
+
+footer a, footer a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+div.clear {
+    clear:both;
+    font-size: 1%;
+}
